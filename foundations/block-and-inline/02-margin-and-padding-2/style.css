@@ -6,6 +6,7 @@ body {
 .card {
   width: 400px;
   background: #fff;
+  padding: 8px;
   margin: 16px auto;
 }
 
@@ -24,4 +25,30 @@ body {
 button {
   background: white;
   border: 1px solid #eee;
+}
+
+
+
+
+.title {
+  font-size: 16px ;
+  padding: 8px;
+  margin: 8px auto;
+}
+
+.content {
+  margin: 8px auto;
+  font-size: 16px;
+  padding: 16px 8px;
+}
+
+.button-container {
+  text-align: center;
+  padding: 8px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  padding: 8px 16px;
 }
